@@ -1,8 +1,0 @@
-resultado = input('Digite um valor qualquer: ')
-print('O tipo primitivo desse valor é ', type(resultado))
-print('O Resultado só tem espaços? ', resultado.isspace())
-print('O Resultado é numerico? ', resultado.isnumeric())
-print('O Resultado é alfanumerico? ', resultado.isalnum())
-print('O Resultado é alfabetico? ', resultado.isalpha())
-print('O Resultado é minusculo? ', resultado.islower())
-print('O Resultado é maisculo? ', resultado.isupper())
