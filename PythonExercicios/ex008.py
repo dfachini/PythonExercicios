@@ -7,7 +7,7 @@ cm = distm * 100
 mm = distm * 1000
 
 print('{}mt é igual a: '.format(distm))
-print('{}km'.format(km))
+print('\033[1;33m{}\033[mkm'.format(km))
 print('{}hm'.format(hm))
 print('{:.1f}dam'.format(dam))
 print('{:.0f}dm'.format(dm))
